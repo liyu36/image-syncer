@@ -1,0 +1,36 @@
+name: image-sync
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  schedule:
+    - cron: 0 */24 * * * 
+  workflow_dispatch:
+
+env:
+  IMAGE_SYNCER_VERSION: v1.3.1
+  DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+  DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
+
+jobs:
+  image-sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: install image-sync tool
+      run: |
+        wget https://github.com/AliyunContainerService/image-syncer/releases/download/${IMAGE_SYNCER_VERSION}/image-syncer-${IMAGE_SYNCER_VERSION}-linux-amd64.tar.gz
+        tar -zxf image-syncer-${IMAGE_SYNCER_VERSION}-linux-amd64.tar.gz
+        
+    - name: init config.yaml with env
+      run: |
+        sed -i "s#DOCKERHUB_USERNAME#${DOCKERHUB_USERNAME}#g" config.yaml
+        sed -i "s#DOCKERHUB_PASSWORD#${DOCKERHUB_PASSWORD}#g" config.yaml
+        
+    - name: sync images
+      run: |
+        ./image-syncer --proc=6 --config=config.yaml --retries=3

@@ -1,0 +1,13 @@
+auth:
+  registry.hub.docker.com:
+    username: DOCKERHUB_USERNAME
+    password: DOCKERHUB_PASSWORD
+images:
+  k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner: liy36/nfs-subdir-external-provisioner
+  k8s.gcr.io/kube-apiserver: liy36/kube-apiserver
+  k8s.gcr.io/kube-controller-manager: liy36/kube-controller-manager
+  k8s.gcr.io/kube-scheduler: liy36/kube-scheduler
+  k8s.gcr.io/kube-proxy: liy36/kube-proxy
+  k8s.gcr.io/pause: liy36/pause
+  k8s.gcr.io/etcd: liy36/etcd
+  k8s.gcr.io/coredns: liy36/coredns
