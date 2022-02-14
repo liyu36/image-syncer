@@ -11,3 +11,5 @@ images:
   k8s.gcr.io/pause: liy36/pause
   k8s.gcr.io/etcd: liy36/etcd
   k8s.gcr.io/coredns: liy36/coredns
+  k8s.gcr.io/ingress-nginx/controller: liy36/ingress-nginx-controller
+  k8s.gcr.io/ingress-nginx/kube-webhook-certgen: liy36/ingress-nginx-kube-webhook-certgen
