@@ -3,6 +3,7 @@ auth:
     username: DOCKERHUB_USERNAME
     password: DOCKERHUB_PASSWORD
 images:
+  ghcr.io/banzaicloud/logging-operator: liy36/banzaicloud-logging-operator
   k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner: liy36/nfs-subdir-external-provisioner
   k8s.gcr.io/kube-apiserver: liy36/kube-apiserver
   k8s.gcr.io/kube-controller-manager: liy36/kube-controller-manager
