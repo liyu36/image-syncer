@@ -3,14 +3,14 @@ auth:
     username: DOCKERHUB_USERNAME
     password: DOCKERHUB_PASSWORD
 images:
-  ghcr.io/banzaicloud/logging-operator: liy36/banzaicloud-logging-operator
-  k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner: liy36/nfs-subdir-external-provisioner
-  k8s.gcr.io/kube-apiserver: liy36/kube-apiserver
-  k8s.gcr.io/kube-controller-manager: liy36/kube-controller-manager
-  k8s.gcr.io/kube-scheduler: liy36/kube-scheduler
-  k8s.gcr.io/kube-proxy: liy36/kube-proxy
-  k8s.gcr.io/pause: liy36/pause
-  k8s.gcr.io/etcd: liy36/etcd
-  k8s.gcr.io/coredns: liy36/coredns
-  k8s.gcr.io/ingress-nginx/controller: liy36/ingress-nginx-controller
-  k8s.gcr.io/ingress-nginx/kube-webhook-certgen: liy36/ingress-nginx-kube-webhook-certgen
+  #ghcr.io/banzaicloud/logging-operator: liy36/banzaicloud-logging-operator
+  #k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner: liy36/nfs-subdir-external-provisioner
+  #k8s.gcr.io/kube-apiserver: liy36/kube-apiserver
+  #k8s.gcr.io/kube-controller-manager: liy36/kube-controller-manager
+  #k8s.gcr.io/kube-scheduler: liy36/kube-scheduler
+  #k8s.gcr.io/kube-proxy: liy36/kube-proxy
+  #k8s.gcr.io/pause: liy36/pause
+  #k8s.gcr.io/etcd: liy36/etcd
+  #k8s.gcr.io/coredns: liy36/coredns
+  #k8s.gcr.io/ingress-nginx/controller: liy36/ingress-nginx-controller
+  #k8s.gcr.io/ingress-nginx/kube-webhook-certgen: liy36/ingress-nginx-kube-webhook-certgen
