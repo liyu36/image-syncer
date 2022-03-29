@@ -1,8 +1,9 @@
 auth:
-  registry.hub.docker.com:
-    username: DOCKERHUB_USERNAME
-    password: DOCKERHUB_PASSWORD
+  registry.cn-hangzhou.aliyuncs.com:
+    username: USERNAME
+    password: PASSWORD
 images:
+  golang:1.16.14: registry.cn-hangzhou.aliyuncs.com/liy36/golang:1.16.14
   #ghcr.io/banzaicloud/logging-operator: liy36/banzaicloud-logging-operator
   #k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner: liy36/nfs-subdir-external-provisioner
   #k8s.gcr.io/kube-apiserver: liy36/kube-apiserver
