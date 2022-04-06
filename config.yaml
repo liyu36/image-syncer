@@ -5,6 +5,7 @@ auth:
 images:
   nginx:1.20: registry.cn-hangzhou.aliyuncs.com/liy36/nginx:1.20-official
   #golang:1.16.14: registry.cn-hangzhou.aliyuncs.com/liy36/golang:1.16.14
+  #golang:1.16.15: registry.cn-hangzhou.aliyuncs.com/liy36/golang:1.16.15-official
   #ghcr.io/banzaicloud/logging-operator: liy36/banzaicloud-logging-operator
   #k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner: liy36/nfs-subdir-external-provisioner
   #k8s.gcr.io/kube-apiserver: liy36/kube-apiserver
