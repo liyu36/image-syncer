@@ -4,20 +4,19 @@ auth:
     password: PASSWORD
 images:
   #gcr.io/cadvisor/cadvisor:v0.39.3: registry.cn-hangzhou.aliyuncs.com/liy36/cadvisor:v0.39.3
-  quay.io/prometheus/alertmanager:v0.24.0: registry.cn-hangzhou.aliyuncs.com/liy36/alertmanager:v0.24.0                    
-  quay.io/prometheus/blackbox-exporter:v0.20.0: registry.cn-hangzhou.aliyuncs.com/liy36/blackbox-exporter:v0.20.0                    
-  jimmidyson/configmap-reload:v0.5.0: registry.cn-hangzhou.aliyuncs.com/liy36/configmap-reload:v0.5.0                    
-  quay.io/brancz/kube-rbac-proxy:v0.12.0: registry.cn-hangzhou.aliyuncs.com/liy36/kube-rbac-proxy:v0.12.0                    
-  grafana/grafana:8.4.5: registry.cn-hangzhou.aliyuncs.com/liy36/grafana:8.4.5                    
-  k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.4.2: registry.cn-hangzhou.aliyuncs.com/liy36/kube-state-metrics:v2.4.2                    
-  quay.io/brancz/kube-rbac-proxy:v0.12.0: registry.cn-hangzhou.aliyuncs.com/liy36/kube-rbac-proxy:v0.12.0                    
-  quay.io/brancz/kube-rbac-proxy:v0.12.0: registry.cn-hangzhou.aliyuncs.com/liy36/kube-rbac-proxy:v0.12.0                    
-  quay.io/prometheus/node-exporter:v1.3.1: registry.cn-hangzhou.aliyuncs.com/liy36/node-exporter:v1.3.1                    
-  quay.io/brancz/kube-rbac-proxy:v0.12.0: registry.cn-hangzhou.aliyuncs.com/liy36/kube-rbac-proxy:v0.12.0                    
-  quay.io/prometheus/prometheus:v2.34.0: registry.cn-hangzhou.aliyuncs.com/liy36/prometheus:v2.34.0                    
-  k8s.gcr.io/prometheus-adapter/prometheus-adapter:v0.9.1: registry.cn-hangzhou.aliyuncs.com/liy36/prometheus-adapter:v0.9.1                    
-  quay.io/prometheus-operator/prometheus-operator:v0.55.1: registry.cn-hangzhou.aliyuncs.com/liy36/prometheus-operator:v0.55.1                    
-  quay.io/brancz/kube-rbac-proxy:v0.12.0: registry.cn-hangzhou.aliyuncs.com/liy36/kube-rbac-proxy:v0.12.0                    
+  #quay.io/prometheus/alertmanager:v0.24.0: registry.cn-hangzhou.aliyuncs.com/liy36/alertmanager:v0.24.0                    
+  #quay.io/prometheus/blackbox-exporter:v0.20.0: registry.cn-hangzhou.aliyuncs.com/liy36/blackbox-exporter:v0.20.0                    
+  #jimmidyson/configmap-reload:v0.5.0: registry.cn-hangzhou.aliyuncs.com/liy36/configmap-reload:v0.5.0                    
+  #quay.io/brancz/kube-rbac-proxy:v0.12.0: registry.cn-hangzhou.aliyuncs.com/liy36/kube-rbac-proxy:v0.12.0                    
+  #grafana/grafana:8.4.5: registry.cn-hangzhou.aliyuncs.com/liy36/grafana:8.4.5                    
+  #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.4.2: registry.cn-hangzhou.aliyuncs.com/liy36/kube-state-metrics:v2.4.2                    
+  #quay.io/brancz/kube-rbac-proxy:v0.12.0: registry.cn-hangzhou.aliyuncs.com/liy36/kube-rbac-proxy:v0.12.0                    
+  quay.io/prometheus-operator/prometheus-config-reloader:v0.55.1: registry.cn-hangzhou.aliyuncs.com/liy36/kube-rbac-proxy:v0.12.0                    
+  #quay.io/prometheus/node-exporter:v1.3.1: registry.cn-hangzhou.aliyuncs.com/liy36/node-exporter:v1.3.1                    
+  #quay.io/brancz/kube-rbac-proxy:v0.12.0: registry.cn-hangzhou.aliyuncs.com/liy36/kube-rbac-proxy:v0.12.0                    
+  #quay.io/prometheus/prometheus:v2.34.0: registry.cn-hangzhou.aliyuncs.com/liy36/prometheus:v2.34.0                    
+  #k8s.gcr.io/prometheus-adapter/prometheus-adapter:v0.9.1: registry.cn-hangzhou.aliyuncs.com/liy36/prometheus-adapter:v0.9.1                    
+  #quay.io/prometheus-operator/prometheus-operator:v0.55.1: registry.cn-hangzhou.aliyuncs.com/liy36/prometheus-operator:v0.55.1                 
   #registry.hub.docker.com/prom/prometheus:v2.34.0: registry.cn-hangzhou.aliyuncs.com/liy36/prometheus:2.34.0
   #nginx:1.20: registry.cn-hangzhou.aliyuncs.com/liy36/nginx:1.20-official
   #golang:1.16.14: registry.cn-hangzhou.aliyuncs.com/liy36/golang:1.16.14
