@@ -42,4 +42,4 @@ images:
   gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/pullrequest-init:v0.35.0: registry.cn-hangzhou.aliyuncs.com/liy36/liy36/tekton-pullrequest-init:v0.35.0
   gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit:v0.35.0: registry.cn-hangzhou.aliyuncs.com/liy36/liy36/tekton-workingdirinit:v0.35.0
   #gcr.io/google.com/cloudsdktool/cloud-sdk: registry.cn-hangzhou.aliyuncs.com/liy36/liy36/tekton-cloud-sdk:latest
-  #ghcr.io/distroless/busybox: registry.cn-hangzhou.aliyuncs.com/liy36/liy36/tekton-busybox:latest
+  ghcr.io/distroless/busybox: registry.cn-hangzhou.aliyuncs.com/liy36/liy36/tekton-busybox
