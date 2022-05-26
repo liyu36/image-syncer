@@ -37,4 +37,6 @@ images:
   #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-workingdirinit
   #gcr.io/google.com/cloudsdktool/cloud-sdk: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-cloud-sdk
   #ghcr.io/distroless/busybox: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-busybox
+  gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-dashboard
   #mcr.microsoft.com/powershell: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-powershell
+  
