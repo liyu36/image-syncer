@@ -37,6 +37,13 @@ images:
   #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-workingdirinit
   #gcr.io/google.com/cloudsdktool/cloud-sdk: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-cloud-sdk
   #ghcr.io/distroless/busybox: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-busybox
-  gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-dashboard
   #mcr.microsoft.com/powershell: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-powershell
+
+  # tekton-dashboard
+  #gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-dashboard
   
+  # tekton-trigger
+  gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/interceptors: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-trigger-interceptors
+  gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/controller: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-trigger-controller
+  gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/eventlistenersink: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-trigger-eventlistenersink
+  gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-trigger-webhook
