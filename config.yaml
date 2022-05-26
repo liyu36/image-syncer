@@ -6,7 +6,7 @@ images:
   # K8s images
   k8s.gcr.io/kube-apiserver: registry.cn-hangzhou.aliyuncs.com/k8sync/kube-apiserver
   k8s.gcr.io/kube-controller-manager: registry.cn-hangzhou.aliyuncs.com/k8sync/kube-controller-manager
-  8s.gcr.io/kube-scheduler: registry.cn-hangzhou.aliyuncs.com/k8sync/kube-scheduler
+  k8s.gcr.io/kube-scheduler: registry.cn-hangzhou.aliyuncs.com/k8sync/kube-scheduler
   k8s.gcr.io/kube-proxy: registry.cn-hangzhou.aliyuncs.com/k8sync/kube-proxy
   k8s.gcr.io/pause: registry.cn-hangzhou.aliyuncs.com/k8sync/pause
   k8s.gcr.io/etcd: registry.cn-hangzhou.aliyuncs.com/k8sync/etcd
