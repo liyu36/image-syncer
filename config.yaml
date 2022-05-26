@@ -4,43 +4,43 @@ auth:
     password: PASSWORD
 images:
   # K8s images
-  #k8s.gcr.io/kube-apiserver: registry.cn-hangzhou.aliyuncs.com/liy36/kube-apiserver
-  #k8s.gcr.io/kube-controller-manager: registry.cn-hangzhou.aliyuncs.com/liy36/kube-controller-manager
-  #k8s.gcr.io/kube-scheduler: registry.cn-hangzhou.aliyuncs.com/liy36/kube-scheduler
-  #k8s.gcr.io/kube-proxy: registry.cn-hangzhou.aliyuncs.com/liy36/kube-proxy
-  #k8s.gcr.io/pause: registry.cn-hangzhou.aliyuncs.com/liy36/pause
-  #k8s.gcr.io/etcd: registry.cn-hangzhou.aliyuncs.com/liy36/etcd
-  #k8s.gcr.io/coredns: registry.cn-hangzhou.aliyuncs.com/liy36/coredns
+  k8s.gcr.io/kube-apiserver: registry.cn-hangzhou.aliyuncs.com/liy36/kube-apiserver
+  k8s.gcr.io/kube-controller-manager: registry.cn-hangzhou.aliyuncs.com/liy36/kube-controller-manager
+  8s.gcr.io/kube-scheduler: registry.cn-hangzhou.aliyuncs.com/liy36/kube-scheduler
+  k8s.gcr.io/kube-proxy: registry.cn-hangzhou.aliyuncs.com/liy36/kube-proxy
+  k8s.gcr.io/pause: registry.cn-hangzhou.aliyuncs.com/liy36/pause
+  k8s.gcr.io/etcd: registry.cn-hangzhou.aliyuncs.com/liy36/etcd
+  k8s.gcr.io/coredns: registry.cn-hangzhou.aliyuncs.com/liy36/coredns
 
   # Container monitors
-  #gcr.io/cadvisor/cadvisor: registry.cn-hangzhou.aliyuncs.com/liy36/cadvisor
+  gcr.io/cadvisor/cadvisor: registry.cn-hangzhou.aliyuncs.com/liy36/cadvisor
   
   # Golang images
   #golang: registry.cn-hangzhou.aliyuncs.com/liy36/golang
 
   # nfs storageclass
-  #k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner: registry.cn-hangzhou.aliyuncs.com/liy36/nfs-subdir-external-provisioner
+  k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner: registry.cn-hangzhou.aliyuncs.com/liy36/nfs-subdir-external-provisioner
 
   # nginx ingress
-  #k8s.gcr.io/ingress-nginx/controller: registry.cn-hangzhou.aliyuncs.com/liy36/ingress-nginx-controller
-  #k8s.gcr.io/ingress-nginx/kube-webhook-certgen: registry.cn-hangzhou.aliyuncs.com/liy36/ingress-nginx-kube-webhook-certgen
+  k8s.gcr.io/ingress-nginx/controller: registry.cn-hangzhou.aliyuncs.com/liy36/ingress-nginx-controller
+  k8s.gcr.io/ingress-nginx/kube-webhook-certgen: registry.cn-hangzhou.aliyuncs.com/liy36/ingress-nginx-kube-webhook-certgen
 
   # tekton 
-  #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-controller
-  #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-webhook
-  #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/kubeconfigwriter: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-kubeconfigwriter
-  #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/git-init: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-git-init
-  #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/entrypoint: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-entrypoint
-  #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/nop: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-nop
-  #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/imagedigestexporter: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-imagedigestexporter
-  #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/pullrequest-init: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-pullrequest-init
-  #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-workingdirinit
-  #gcr.io/google.com/cloudsdktool/cloud-sdk: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-cloud-sdk
-  #ghcr.io/distroless/busybox: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-busybox
-  #mcr.microsoft.com/powershell: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-powershell
+  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-controller
+  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-webhook
+  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/kubeconfigwriter: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-kubeconfigwriter
+  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/git-init: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-git-init
+  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/entrypoint: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-entrypoint
+  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/nop: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-nop
+  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/imagedigestexporter: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-imagedigestexporter
+  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/pullrequest-init: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-pullrequest-init
+  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-workingdirinit
+  gcr.io/google.com/cloudsdktool/cloud-sdk: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-cloud-sdk
+  ghcr.io/distroless/busybox: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-busybox
+  mcr.microsoft.com/powershell: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-powershell
 
   # tekton-dashboard
-  #gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-dashboard
+  gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-dashboard
   
   # tekton-trigger
   gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/interceptors: registry.cn-hangzhou.aliyuncs.com/liy36/tekton-trigger-interceptors
