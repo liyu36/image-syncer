@@ -4,32 +4,40 @@ auth:
     password: PASSWORD
 images:
   # tekton 
-  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-pipeline-controller
-  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-pipeline-webhook
-  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/kubeconfigwriter: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-pipeline-kubeconfigwriter
-  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/git-init: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-pipeline-git-init
-  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/entrypoint: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-pipeline-entrypoint
-  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/nop: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-pipeline-nop
-  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/imagedigestexporter: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-pipeline-imagedigestexporter
-  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/pullrequest-init: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-pipeline-pullrequest-init
-  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-pipeline-workingdirinit
-  ghcr.io/distroless/busybox: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-distroless-busybox
+  #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-pipeline-controller
+  #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-pipeline-webhook
+  #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/kubeconfigwriter: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-pipeline-kubeconfigwriter
+  #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/git-init: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-pipeline-git-init
+  #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/entrypoint: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-pipeline-entrypoint
+  #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/nop: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-pipeline-nop
+  #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/imagedigestexporter: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-pipeline-imagedigestexporter
+  #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/pullrequest-init: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-pipeline-pullrequest-init
+  #gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-pipeline-workingdirinit
+  #ghcr.io/distroless/busybox: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-distroless-busybox
   #gcr.io/google.com/cloudsdktool/cloud-sdk: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-google-cloud-sdk
   #mcr.microsoft.com/powershell: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-powershell
 
   # tekton-dashboard
-  gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-dashboard-dashboard
+  #gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-dashboard-dashboard
   
   # tekton-trigger
-  gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/interceptors: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-trigger-interceptors
-  gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/controller: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-trigger-controller
-  gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/eventlistenersink: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-trigger-eventlistenersink
-  gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-trigger-webhook
+  #gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/interceptors: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-trigger-interceptors
+  #gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/controller: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-trigger-controller
+  #gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/eventlistenersink: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-trigger-eventlistenersink
+  #gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook: registry.cn-hangzhou.aliyuncs.com/k8sync/tekton-trigger-webhook
 
 
   ### lsync 
   # Container monitors
-  gcr.io/cadvisor/cadvisor: registry.cn-hangzhou.aliyuncs.com/lsync/cadvisor
+  #gcr.io/cadvisor/cadvisor: registry.cn-hangzhou.aliyuncs.com/lsync/cadvisor
 
+  # openebs
+  k8s.gcr.io/sig-storage/csi-resizer:v1.2.0 registry.cn-hangzhou.aliyuncs.com/lsync/csi-resizer:v1.2.0 
+  k8s.gcr.io/sig-storage/csi-snapshotter:v3.0.3 registry.cn-hangzhou.aliyuncs.com/lsync/csi-snapshotter:v3.0.3
+  k8s.gcr.io/sig-storage/snapshot-controller:v3.0.3 registry.cn-hangzhou.aliyuncs.com/lsync/snapshot-controller:v3.0.3
+  k8s.gcr.io/sig-storage/csi-provisioner:v3.0.0 registry.cn-hangzhou.aliyuncs.com/lsync/csi-provisioner:v3.0.0
+  k8s.gcr.io/sig-storage/csi-attacher:v3.1.0 registry.cn-hangzhou.aliyuncs.com/lsync/csi-attacher:v3.1.0 
+  k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.3.0 registry.cn-hangzhou.aliyuncs.com/lsync/csi-node-driver-registrar:v2.3.0
+  
   # Golang images
-  golang: registry.cn-hangzhou.aliyuncs.com/lsync/golang
+  #golang: registry.cn-hangzhou.aliyuncs.com/lsync/golang
