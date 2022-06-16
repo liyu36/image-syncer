@@ -40,7 +40,8 @@ images:
   #k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.3.0: registry.cn-hangzhou.aliyuncs.com/lsync/csi-node-driver-registrar:v2.3.0
   
   ## Prometheus
-  quay.io/prometheus-operator/prometheus-config-reloader:v0.47.0: registry.cn-hangzhou.aliyuncs.com/lsync/prometheus-config-reloader:v0.47.0
-  
+  #quay.io/prometheus-operator/prometheus-config-reloader:v0.47.0: registry.cn-hangzhou.aliyuncs.com/lsync/prometheus-config-reloader:v0.47.0
+  tkestack/kvass:v0.2.1: registry.cn-hangzhou.aliyuncs.com/lsync/kvass:v0.2.1
+   
   # Golang images
   #golang: registry.cn-hangzhou.aliyuncs.com/lsync/golang
