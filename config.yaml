@@ -30,6 +30,7 @@ images:
   ### lsync 
   # Container monitors
   #gcr.io/cadvisor/cadvisor: registry.cn-hangzhou.aliyuncs.com/lsync/cadvisor
+  k8s.gcr.io/metrics-server/metrics-server:v0.6.1: registry.cn-hangzhou.aliyuncs.com/lsync/metrics-server:v0.6.1
   ghcr.io/dexidp/dex:v2.30.0: registry.cn-hangzhou.aliyuncs.com/lsync/dex:v2.30.0
   
   
